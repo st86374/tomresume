@@ -18,7 +18,11 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  // background-attachment: fixed;
+  background-attachment: scroll;
+  @media (min-width:768px) {
+
+    background-attachment:fixed
+  }
   &:after {
     content: " ";
     position: absolute;
@@ -271,11 +275,16 @@
 }
 
 .skill {
+  background-attachment: scroll;
   background-image: url(https://github.com/st86374/tomresume/blob/master/public/assets/img/taipei.jpeg?raw=true);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  // background-attachment: fixed;
+  @media (min-width:768px) {
+
+    background-attachment:fixed
+  }
+
 
   h4 {
     color: #fff;
@@ -299,13 +308,17 @@
       background-image: url(https://github.com/st86374/tomresume/blob/master/public/assets/img/taipei.jpeg?raw=true);
       background-position: center center;
       background-size: cover;
-      background-attachment: fixed;
+      background-attachment: scroll;
       margin: -30px;
       -webkit-filter: blur(20px);
       -moz-filter: blur(20px);
       -ms-filter: blur(20px);
       -o-filter: blur(20px);
       filter: blur(20px);
+      @media (min-width:768px) {
+
+        background-attachment:fixed
+      }
     }
 
     ;
