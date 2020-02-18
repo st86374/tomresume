@@ -259,16 +259,19 @@
       color: #fff;
       border-top-left-radius: 0.25rem;
       border-top-right-radius: 0.25rem;
-      width: 100px;
+      width: 90px;
       text-align: center;
       padding: 8px 0px;
-      margin: 0 10px;
-
+      margin: 0 2px;
       &.active {
         color: #fff;
         background-color: orange;
         border-color: transparent;
         border-bottom: 1px solid #343a40;
+      }
+      @media (min-width:576px) {
+        width: 100px;
+        margin: 0 10px;
       }
     }
   }
