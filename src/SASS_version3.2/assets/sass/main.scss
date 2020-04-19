@@ -1,12 +1,12 @@
 //===========載入舊版Style
 
 // ========== 3rd Party SCSS (三方css引入)
-@import "bootstrap";
-@import "./node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
-@import "./node_modules/@fortawesome/fontawesome-free/scss/brands";
-@import "./node_modules/@fortawesome/fontawesome-free/scss/regular";
-@import "./node_modules/@fortawesome/fontawesome-free/scss/solid";
-@import "./node_modules/@fortawesome/fontawesome-free/scss/v4-shims";
+// @import "bootstrap";
+// @import "./node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+// @import "./node_modules/@fortawesome/fontawesome-free/scss/brands";
+// @import "./node_modules/@fortawesome/fontawesome-free/scss/regular";
+// @import "./node_modules/@fortawesome/fontawesome-free/scss/solid";
+// @import "./node_modules/@fortawesome/fontawesome-free/scss/v4-shims";
 // ========== Plugins (全站引入)
 
 // ========== 共同
@@ -32,11 +32,11 @@
 @import "layout/_index"; // -------- 首頁
 
 // ========== 媒體查詢
-@import "version/_media"; // -------- mediaquery
-@import "version/_print"; // -------- 列印樣式修正
+// @import "version/_media"; // -------- mediaquery
+// @import "version/_print"; // -------- 列印樣式修正
 
 //========== IE 視覺修正
-@import "mainfix/ie8"; // -------- ie8
-@import "mainfix/ie9"; // -------- ie9
-@import "mainfix/IE_fix"; // -------- ie10以上修正
-@import "mainfix/browser_fix"; // -------- 其他瀏覽器修正
+// @import "mainfix/ie8"; // -------- ie8
+// @import "mainfix/ie9"; // -------- ie9
+// @import "mainfix/IE_fix"; // -------- ie10以上修正
+// @import "mainfix/browser_fix"; // -------- 其他瀏覽器修正
