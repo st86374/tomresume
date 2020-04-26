@@ -118,11 +118,9 @@ $('.works_info').slick({
         dots: true
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
+
 $(window).ready(function () {
   if (parseInt($('.prognroll-bar').width()) != 0) {
     $('.gotop').addClass('active');
@@ -130,5 +128,18 @@ $(window).ready(function () {
   } else {
     $('.gotop').removeClass('active');
     $('.black-line').css('background', 'transparent')
+  }
+})
+var app = new Vue({
+  el: 'h1',
+  data: {
+    title: 'TomResume'
+  }
+})
+var app2 = new Vue({
+  el: 'footer',
+  data: {
+    year: new Date().getFullYear(),
+    name:'TangYuCheng'
   }
 })
